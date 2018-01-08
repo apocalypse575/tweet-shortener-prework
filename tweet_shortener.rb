@@ -25,6 +25,8 @@ def word_substituter(tweet)
     tweet.split(" ").map do |words|
       if dictionary.keys.include?(words)
         words = dictionary[words]
+      else
+        tweet
   end
 end
 end
