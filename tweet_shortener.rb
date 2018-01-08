@@ -28,5 +28,5 @@ def word_substituter(tweet)
       else
         words
   end
-end
+end.to_s
 end
