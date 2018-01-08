@@ -22,11 +22,11 @@ end
 def word_substituter(tweet)
   # replaces long words with their expected short form
 
-    tweet.split(" ").map do |words|
-      if dictionary.keys.include?(words)
-        words = dictionary[words]
+    tweet.split(" ").map do |word|
+      if dictionary.keys.include?(word)
+        word = dictionary[word]
       else
-        words
+        word
   end
 end.join(" ")
 end
