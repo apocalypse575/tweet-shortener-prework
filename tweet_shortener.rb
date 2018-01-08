@@ -30,5 +30,5 @@ end
 
 def bulk_tweet_shortener(tweet)
   tweet.map do |tweet|
-    
+    tweet
 end
