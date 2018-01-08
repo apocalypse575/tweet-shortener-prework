@@ -26,5 +26,5 @@ def word_substituter(tweet)
       if dictionary.keys.include?(words)
         words = dictionary[words]
   end
-end.compact
+end
 end
