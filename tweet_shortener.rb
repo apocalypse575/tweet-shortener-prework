@@ -26,7 +26,7 @@ def word_substituter(tweet)
     binding.pry
     tweet.split(" ").map do |words|
       binding.pry
-    words << values if tweet.include?(keys)
+    words << values if dictionary.keys.include?(words)
   end.compact
 end
 end
