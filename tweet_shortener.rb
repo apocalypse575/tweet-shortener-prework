@@ -23,6 +23,7 @@ def word_substituter(tweet)
   # replaces long words with their expected short form
 
   dictionary.map do |keys, values|
+    binding.pry
     tweet.split(" ").map do |words|
       binding.pry
     words << values if tweet.include?(keys)
