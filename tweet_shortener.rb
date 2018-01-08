@@ -27,5 +27,5 @@ def word_substituter(tweet)
       binding.pry
         words = dictionary[keys]
   end
-end
+end.compact
 end
