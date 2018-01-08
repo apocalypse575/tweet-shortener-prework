@@ -26,6 +26,6 @@ def word_substituter(tweet)
       if dictionary.keys.include?(words)
       binding.pry
         words = dictionary[keys]
-  end.compact
+  end
 end
 end
