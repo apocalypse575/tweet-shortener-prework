@@ -16,9 +16,6 @@ def dictionary
 }
 end
 
-
-
-
 def word_substituter(tweet)
   # replaces long words with their expected short form
 
@@ -29,4 +26,9 @@ def word_substituter(tweet)
         word
   end
 end.join(" ")
+end
+
+def bulk_tweet_shortener(tweet)
+  tweet.map do |tweet|
+    
 end
